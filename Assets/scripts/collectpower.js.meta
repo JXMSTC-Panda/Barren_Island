@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d4b306d508365f64cb08f10273c795f7
+timeCreated: 1468049426
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - collectpowersound: {fileID: 8300000, guid: e4733623de62c44819074fe1e9b6aeb9, type: 3}
+  - meterimage_bl: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
