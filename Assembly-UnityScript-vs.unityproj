@@ -53,6 +53,7 @@
      <Compile Include="Assets\scripts\destroycoconut.js" />
      <Compile Include="Assets\scripts\mat.js" />
      <Compile Include="Assets\scripts\matchbox.js" />
+     <Compile Include="Assets\scripts\menu.js" />
      <Compile Include="Assets\scripts\outpost.js" />
      <Compile Include="Assets\scripts\power.js" />
      <Compile Include="Assets\scripts\power4.js" />

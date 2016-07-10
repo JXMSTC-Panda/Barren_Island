@@ -7,6 +7,8 @@ var doortext:UI.Text;
 var time:float;
 var door_locksound:AudioClip;
 var door_light:Light;
+static var windowSwitch:boolean=false;
+private var windowRect= Rect(Screen.width/3,Screen.height/3,240,200);
 function Start () {
 
 }
@@ -18,6 +20,10 @@ function Update () {
 			door(false,door_shut_sound,"doorshut",currentdoor);
 			time=0.0;
 		}
+	}
+	if(Input.GetKeyDown(KeyCode.Escape)){
+		windowSwitch=!windowSwitch;
+	
 	}
 }
 function OnTriggerEnter(col:Collider){
@@ -44,6 +50,8 @@ function OnTriggerExit(col:Collider){
 		doortext.enabled=false;
 	}
 	
+	
+	
 
 }
 function door(doorcheck:boolean,clip_name:AudioClip,anim_name:String,thisdoor:GameObject){
@@ -51,4 +59,19 @@ function door(doorcheck:boolean,clip_name:AudioClip,anim_name:String,thisdoor:Ga
 	thisdoor.GetComponent.<AudioSource>().PlayOneShot(clip_name);
 	thisdoor.GetComponent.<Animation>().Play(anim_name);
 
+}
+
+function OnGUI(){
+	if(windowSwitch==true){
+		windowRect=GUI.Window(0,windowRect,WindowContain,"测试窗口");
+	
+	}
+
+}
+function WindowContain(windowID:int){
+	if(GUI.Button(Rect(70,70,100,20),"关闭音乐")){gameObject.Find("Terrain").GetComponent(AudioSource).enabled=false;}
+	if(GUI.Button(Rect(70,100,100,20),"打开音乐")){gameObject.Find("Terrain").GetComponent(AudioSource).enabled=true;}
+	if(GUI.Button(Rect(70,130,100,20),"关闭窗口")){windowSwitch=false;}
+	if(GUI.Button(Rect(70,160,100,20),"退出游戏")){Application.Quit();}
+	GUI.DragWindow(new Rect(0,0,1000,100));
 }

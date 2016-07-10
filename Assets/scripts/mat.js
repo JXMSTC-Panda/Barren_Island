@@ -16,3 +16,11 @@ function OnTriggerEnter(col:Collider){
 	}
 
 }
+function OnTriggerExit(col:Collider){
+	if(col.gameObject.tag=="Player"){
+		canfirecoconut=false;
+		
+	//	mat1.enabled=false;
+	}
+
+}
