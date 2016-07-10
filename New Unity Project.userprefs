@@ -1,17 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\power4.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\bigstone.js">
     <Files>
-      <File FileName="Assets\scripts\coconutejector.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\outpost.js" Line="66" Column="57" />
-      <File FileName="Assets\scripts\menu.js" Line="11" Column="51" />
-      <File FileName="Assets\scripts\matchbox.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\collectpower.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\power.js" Line="12" Column="41" />
-      <File FileName="Assets\scripts\mat.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\coconutshy.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\target.js" Line="7" Column="2" />
-      <File FileName="Assets\scripts\power4.js" Line="10" Column="54" />
+      <File FileName="Assets\scripts\stone.js" Line="11" Column="85" />
+      <File FileName="Assets\scripts\wood.js" Line="9" Column="2" />
+      <File FileName="Assets\scripts\powercell2.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\power.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\outpost.js" Line="27" Column="3" />
+      <File FileName="Assets\scripts\cowboy.js" Line="27" Column="44" />
+      <File FileName="Assets\scripts\collectpower.js" Line="45" Column="12" />
+      <File FileName="Assets\scripts\powercell3.js" Line="14" Column="43" />
+      <File FileName="Assets\scripts\bigstone.js" Line="11" Column="1" />
+      <File FileName="Assets\scripts\controllerfire.js" Line="15" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -19,6 +19,9 @@
       <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\player\tig.js" line="5" />
       <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\fire.js" line="15" />
       <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\menu.js" line="4" />
+      <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\engineer.js" line="6" />
+      <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\cowboy.js" line="27" />
+      <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\bigstone.js" line="11" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

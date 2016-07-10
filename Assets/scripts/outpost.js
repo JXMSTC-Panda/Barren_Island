@@ -25,6 +25,7 @@ function Update () {
 		windowSwitch=!windowSwitch;
 	
 	}
+	
 }
 function OnTriggerEnter(col:Collider){
 	if(col.gameObject.tag=="Player"&&collectpower.charge==4){

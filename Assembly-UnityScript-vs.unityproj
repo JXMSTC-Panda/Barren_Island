@@ -46,20 +46,32 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Necromancer GUI\GUITestScript.js" />
+     <Compile Include="Assets\scripts\bigstone.js" />
      <Compile Include="Assets\scripts\coconutejector.js" />
      <Compile Include="Assets\scripts\coconutshy.js" />
      <Compile Include="Assets\scripts\collectpower.js" />
      <Compile Include="Assets\scripts\controllerfire.js" />
+     <Compile Include="Assets\scripts\cowboy.js" />
      <Compile Include="Assets\scripts\destroycoconut.js" />
+     <Compile Include="Assets\scripts\engineer.js" />
+     <Compile Include="Assets\scripts\guitest.js" />
      <Compile Include="Assets\scripts\mat.js" />
      <Compile Include="Assets\scripts\matchbox.js" />
      <Compile Include="Assets\scripts\menu.js" />
      <Compile Include="Assets\scripts\outpost.js" />
      <Compile Include="Assets\scripts\power.js" />
-     <Compile Include="Assets\scripts\power4.js" />
+     <Compile Include="Assets\scripts\powercell2.js" />
+     <Compile Include="Assets\scripts\powercell3.js" />
+     <Compile Include="Assets\scripts\powercell4.js" />
+     <Compile Include="Assets\scripts\rabbit.js" />
+     <Compile Include="Assets\scripts\stone.js" />
      <Compile Include="Assets\scripts\target.js" />
+     <Compile Include="Assets\scripts\wood.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Necromancer GUI\Readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>E:/unity3d/New Unity Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
