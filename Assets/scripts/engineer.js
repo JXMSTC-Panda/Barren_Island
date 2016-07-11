@@ -10,7 +10,7 @@ function OnMouseDown(){
 		case 1: guitest.info="你找到一个能量源了吗？\n第二个能量源我也不知道在哪\n你可以去那边的山坡上问问那只兔子他也许知道";break;
 		case 2: guitest.info="你真厉害，这么快就找到两个能量源了";break;
 		case 3: guitest.info="oh，再找到一个能量源我们就可以回家了";break;
-		case 4: guitest.info="ok，4个能量源都找到了\n我们可以打开那边的房子\n里面可能有的东西可以用得上";break;
+		case 4: guitest.info="ok，4个能量源都找到了\n我们可以打开那边的房子就能自动发射信号\n再把火堆点燃就有人来救我们了";break;
 	//	default:guitest.info="可以回家时记得叫上我哈！！！";break;
 	}
 }

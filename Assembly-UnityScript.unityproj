@@ -62,7 +62,6 @@
      <Compile Include="Assets\scripts\outpost.js" />
      <Compile Include="Assets\scripts\power.js" />
      <Compile Include="Assets\scripts\powercell2.js" />
-     <Compile Include="Assets\scripts\powercell3.js" />
      <Compile Include="Assets\scripts\powercell4.js" />
      <Compile Include="Assets\scripts\rabbit.js" />
      <Compile Include="Assets\scripts\stone.js" />

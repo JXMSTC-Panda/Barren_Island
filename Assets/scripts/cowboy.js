@@ -16,14 +16,15 @@ function OnMouseDown(){
 		case 0: guitest.info="这个岛景色真美啊";break;
 		case 1: guitest.info="我有一门绝学,叫做飞檐走壁";break;
 		case 2: guitest.info="给我找10个石头来我就教你飞檐走壁\n哪里都能去";break;
-		case 3: guitest.info="给我找10个石头来我就教你飞檐走壁\n哪里都能去";break;
-		case 4: guitest.info="给我找10个石头来我就教你飞檐走壁\n哪里都能去";break;
+		case 3: guitest.info="弹指神通可真奥妙";break;
+		case 4: guitest.info="什么时候才能学会啊";break;
 		default:guitest.info="！！！";break;
 		}
 		}
 	else if(collectpower.stonecount==10&&collectpower.charge==2){
 		
-		guitest.info="山下的那块大石头有我刻下的秘籍\n自己去学吧";
+		guitest.info="谢谢了,山下的那块大石头有我刻下的秘籍\n自己去学吧";
+			Destroy(gameObject.Find("stonecount"))
 		//transform.Find("Graphics").GetComponent(CharacterController).slopeLimit=90;//控制主角爬坡能力
 	}
 }

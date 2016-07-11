@@ -18,5 +18,5 @@ function OnMouseDown(){
 		case 2: guitest.info="第3个能量源在一个高山上,但是我们上不去\n你可以去问问那边的那个神秘人";break;
 		case 3: guitest.info="oh，再找到一个能量源我就可以出海了";break;
 		case 4: guitest.info="4个能量源都找到了我们出海吧";break;
-		default:guitest.info="可以回家时记得叫上我哈！！！";break;
+		default:guitest.info="！！！";break;
 }}

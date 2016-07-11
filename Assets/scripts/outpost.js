@@ -10,7 +10,9 @@ var door_light:Light;
 static var windowSwitch:boolean=false;
 private var windowRect= Rect(Screen.width/3,Screen.height/3,240,200);
 function Start () {
-
+	guitest.talk=true;
+	guitest.rolename="遇难者";
+	guitest.info="额，头好痛,这是怎么了\n我记得好像船翻了,难道我被冲到这个岛上了?\n不管了,先看看这个岛吧";
 }
 
 function Update () {

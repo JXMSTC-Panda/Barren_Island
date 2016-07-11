@@ -1,17 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\bigstone.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\engineer.js">
     <Files>
-      <File FileName="Assets\scripts\stone.js" Line="11" Column="85" />
-      <File FileName="Assets\scripts\wood.js" Line="9" Column="2" />
-      <File FileName="Assets\scripts\powercell2.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\power.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\outpost.js" Line="27" Column="3" />
-      <File FileName="Assets\scripts\cowboy.js" Line="27" Column="44" />
-      <File FileName="Assets\scripts\collectpower.js" Line="45" Column="12" />
-      <File FileName="Assets\scripts\powercell3.js" Line="14" Column="43" />
-      <File FileName="Assets\scripts\bigstone.js" Line="11" Column="1" />
-      <File FileName="Assets\scripts\controllerfire.js" Line="15" Column="60" />
+      <File FileName="Assets\scripts\stone.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\wood.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\outpost.js" Line="15" Column="50" />
+      <File FileName="Assets\scripts\cowboy.js" Line="20" Column="34" />
+      <File FileName="Assets\scripts\bigstone.js" Line="16" Column="2" />
+      <File FileName="Assets\scripts\rabbit.js" Line="21" Column="25" />
+      <File FileName="Assets\scripts\engineer.js" Line="13" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -20,7 +17,7 @@
       <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\fire.js" line="15" />
       <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\menu.js" line="4" />
       <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\engineer.js" line="6" />
-      <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\cowboy.js" line="27" />
+      <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\cowboy.js" line="28" />
       <Breakpoint file="E:\unity3d\New Unity Project\Assets\scripts\bigstone.js" line="11" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
