@@ -24,7 +24,7 @@ function OnMouseDown(){
 	else if(collectpower.stonecount==10&&collectpower.charge==2){
 		
 		guitest.info="谢谢了,山下的那块大石头有我刻下的秘籍\n自己去学吧";
-			Destroy(gameObject.Find("stonecount"))
+			Destroy(gameObject.Find("stonecount"));
 		//transform.Find("Graphics").GetComponent(CharacterController).slopeLimit=90;//控制主角爬坡能力
 	}
 }

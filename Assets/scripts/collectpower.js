@@ -3,6 +3,7 @@
 static var charge:int=0;
 static var woodcount:int=0;
 static var stonecount:int=0;
+static var player:Transform;
 var collectpowersound:AudioClip;
 var powerimage:Texture2D[];
 var meterimage:Texture2D[];
@@ -12,7 +13,7 @@ var stone_count:UI.Text;
 var meterimage_bl:Renderer;
 
 function Start () {
-
+	player=gameObject.Find("First Person Coneroller").transform;
 }
 
 function Update () {
