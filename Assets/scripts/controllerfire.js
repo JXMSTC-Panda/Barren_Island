@@ -5,6 +5,7 @@ var firesound:AudioClip;
 var firelight:Light;
 var fire_bl:boolean=false;
 var firetext:UI.Text;
+var win_massage:UI.RawImage;
 function Start () {
 
 }
@@ -23,7 +24,9 @@ function OnControllerColliderHit(hit:ControllerColliderHit){
 		Destroy(gameObject.Find("matchimage"));
 		guitest.talk=true;
 		guitest.rolename="游戏结束";
+		win_massage.enabled=true;
 		guitest.info="恭喜你成功发射求救信号\n游戏内容已结束，点击关闭退出游戏";
+		
 	}
 	else if(hit.gameObject.tag=="fire"&&fire_bl==false) {
 		firetext.text="需要火柴才能点火";

@@ -66,6 +66,7 @@
      <Compile Include="Assets\scripts\rabbit.js" />
      <Compile Include="Assets\scripts\stone.js" />
      <Compile Include="Assets\scripts\target.js" />
+     <Compile Include="Assets\scripts\winmassage.js" />
      <Compile Include="Assets\scripts\wood.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Necromancer GUI\Kingthings.txt" />

@@ -24,7 +24,7 @@ function domywindow(windi:int){
 	GUILayout.Label("","mydividerskin");
 	GUILayout.Label(info,"mytestskin");
 	GUILayout.EndVertical();//结束垂直布局
-	if(GUI.Button(Rect(150,440,60,20),"关闭")){talk=false;}
+	if(GUI.Button(Rect(150,440,60,20),"关闭")&&guitest.rolename!="游戏结束"){talk=false;}
 	else if(GUI.Button(Rect(150,440,60,20),"关闭")&&guitest.rolename=="游戏结束"){
 		Application.Quit();
 	

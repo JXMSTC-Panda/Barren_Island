@@ -13,6 +13,6 @@ function OnControllerColliderHit(hit:ControllerColliderHit){
 		guitest.rolename="大石头";
 		gameObject.GetComponent(CharacterController).slopeLimit=90;
 		guitest.info="习得飞檐走壁";
-	;
+	
 	}
 }
